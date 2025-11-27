@@ -1,17 +1,3 @@
-// import React from 'react'
-
-// const EventCard = ({ name, date }) => {
-//   return (
-//     <>
-//     <div className="bg-gray-800 p-6 rounded-xl shadow-md">
-// <h3 className="text-xl font-bold text-blue-400">{name}</h3>
-// <p className="text-gray-300 mt-1">{date}</p>
-// </div>
-//     </>
-//   )
-// }
-
-// export default EventCard;
 
 import React from "react";
 
