@@ -67,7 +67,7 @@ Esport Arena Dashboard
 <Card title="Total Players" value="120" icon="🎮" />
 <Card title="Upcoming Events" value="5" icon="📅" />
 <Card title="Today's Bookings" value="18" icon="🏟️" />
-<Card title="Total Earnings" value="₹45,200" icon="💰" />
+{/* <Card title="Total Earnings" value="₹45,200" icon="💰" /> */}
 <Card title="Active Systems" value="12" icon="🖥️" />
 <Card title="Peak Hours" value="7 PM - 10 PM" icon="⏱️" />
 </div>

@@ -8,6 +8,8 @@ import Dashbroad from './page/dashbroad';
 import Player from './page/player';
 import Event from './page/event';
 import Booking from './page/booking';
+import Login from './page/login';
+import Home from './page/home';
 import Card from './page/card';
 import EventCard from './page/eventCard';
 
@@ -24,6 +26,8 @@ function App() {
 <Link to="/players" className="hover:text-blue-400">Players</Link>
 <Link to="/events" className="hover:text-blue-400">Events</Link>
 <Link to="/bookings" className="hover:text-blue-400">Bookings</Link>
+<Link to="/login" className="hover:text-blue-400">Login</Link>
+<Link to="/home" className="hover:text-blue-400">Home</Link>
 </div>
 </nav>
 
@@ -33,6 +37,8 @@ function App() {
 <Route path="/players" element={<Player />} />
 <Route path="/events" element={<Event />} />
 <Route path="/bookings" element={<Booking />} />
+<Route path="/login" element={<Login />} />
+<Route path="/home" element={<Home />} />
 </Routes>
 </div>
 </Router>
@@ -41,4 +47,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
