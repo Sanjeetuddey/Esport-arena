@@ -22,27 +22,26 @@ function App() {
 <nav className="bg-gray-800 p-4 shadow-lg flex justify-between items-center">
 <h1 className="text-2xl font-bold">Esport Arena</h1>
 <div className="space-x-4">
+ <Link to="/home" className="hover:text-blue-400">Home</Link>
 <Link to="/" className="hover:text-blue-400">Dashboard</Link>
 <Link to="/players" className="hover:text-blue-400">Players</Link>
 <Link to="/events" className="hover:text-blue-400">Events</Link>
 <Link to="/bookings" className="hover:text-blue-400">Bookings</Link>
 <Link to="/login" className="hover:text-blue-400">Login</Link>
-<Link to="/home" className="hover:text-blue-400">Home</Link>
 </div>
 </nav>
 
 
 <Routes>
+  <Route path="/home" element={<Home />} />
 <Route path="/" element={<Dashbroad />} />
 <Route path="/players" element={<Player />} />
 <Route path="/events" element={<Event />} />
 <Route path="/bookings" element={<Booking />} />
 <Route path="/login" element={<Login />} />
-<Route path="/home" element={<Home />} />
 </Routes>
 </div>
 </Router>
-    
     </>
   )
 }
