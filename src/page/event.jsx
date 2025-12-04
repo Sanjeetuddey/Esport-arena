@@ -1,7 +1,7 @@
 import React from "react";
 import EventCard from "./eventCard";
 
-// Background & event poster images
+
 import bgImage from "../assets/dash3.webp";
 import valorantImg from "../assets/valorant.jpeg";
 import bgmiImg from "../assets/bgmi.jpeg";
@@ -14,15 +14,12 @@ const Event = () => {
       className="p-8 min-h-screen text-white bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      {/* Glass Background Wrapper */}
       <div className="backdrop-blur-sm bg-black/60 p-8 rounded-2xl shadow-xl">
 
-        {/* Page Title */}
         <h2 className="text-4xl font-bold mb-10 text-center tracking-wide drop-shadow-xl">
           Esports Events & Tournaments
         </h2>
 
-        {/* Filters */}
         <div className="flex justify-center gap-4 mb-10">
           <button className="px-5 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 transition-all shadow-md">
             Upcoming
@@ -31,8 +28,6 @@ const Event = () => {
             Past Events
           </button>
         </div>
-
-        {/* Events Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <EventCard
             name="Valorant Showdown"
@@ -63,7 +58,6 @@ const Event = () => {
             image={csImg}
           />
         </div>
-
       </div>
     </div>
   );
