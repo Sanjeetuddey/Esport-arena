@@ -54,7 +54,6 @@ return (
 className="p-8 min-h-screen text-white bg-cover bg-center bg-no-repeat"
 style={{ backgroundImage: `url(${bgImage})` }}
 >
-{/* Overlay */}
 <div className="backdrop-blur-sm bg-black/60 p-8 rounded-2xl shadow-xl">
 {/* Heading */}
 <h2 className="text-4xl font-bold mb-8 tracking-wide text-center drop-shadow-lg">
