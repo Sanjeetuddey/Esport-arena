@@ -1,50 +1,6 @@
-// import React from 'react'
-// import Card from './card';
-
-// const Dashbroad = () => {
-//   return (
-//     <>
-//     <div className="p-8">
-// <h2 className="text-3xl font-semibold mb-4">Dashboard</h2>
-// <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-// <Card title="Total Players" value="120" />
-// <Card title="Upcoming Events" value="5" />
-// <Card title="Today's Bookings" value="18" />
-// </div>
-// </div>
-//     </>
-//   )
-// }
-
-// export default Dashbroad;
-
-// import React from "react";
-// import Card from "./card";
-
-
-// const Dashboard = () => {
-//   return (
-//     <div className="p-8 min-h-screen bg-gradient from-gray-900 via-gray-800 to-gray-900 text-white">
-//       {/* Heading */}
-//       <h2 className="text-4xl font-bold mb-8 tracking-wide">
-//         Dashboard
-//       </h2>
-
-//       {/* Cards */}
-//       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-//         <Card title="Total Players" value="120" icon="🎮" />
-//         <Card title="Upcoming Events" value="5" icon="📅" />
-//         <Card title="Today's Bookings" value="18" icon="🏟️" />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Dashboard;
-
 import React from "react";
 import Card from "./card";
-import bgImage from "../assets/dash4.webp"; // Add your background image
+import bgImage from "../assets/dash4.webp"; 
 
 
 const Dashboard = () => {
@@ -55,13 +11,12 @@ className="p-8 min-h-screen text-white bg-cover bg-center bg-no-repeat"
 style={{ backgroundImage: `url(${bgImage})` }}
 >
 <div className="backdrop-blur-sm bg-black/60 p-8 rounded-2xl shadow-xl">
-{/* Heading */}
+
 <h2 className="text-4xl font-bold mb-8 tracking-wide text-center drop-shadow-lg">
 Esport Arena Dashboard
 </h2>
 
 
-{/* Cards Grid */}
 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
 <Card title="Total Players" value="120" icon="🎮" />
 <Card title="Upcoming Events" value="5" icon="📅" />
