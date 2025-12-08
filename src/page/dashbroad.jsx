@@ -40,7 +40,6 @@ Esport Arena Dashboard
 </div>
 
 
-{/* Player Activity */}
 <div className="bg-gray-800/80 p-6 rounded-xl shadow-xl border border-gray-700">
 <h3 className="text-2xl font-semibold mb-4">Player Activity</h3>
 <ul className="space-y-3 text-gray-300">
