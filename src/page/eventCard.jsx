@@ -7,8 +7,7 @@ const EventCard = ({ name, date, teams, prize, image }) => {
       className="rounded-2xl overflow-hidden bg-gray-800/80 border border-gray-700 shadow-xl 
       hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
     >
-      {/* Event Image */}
-      <img
+        <img
         src={image}
         alt={name}
         className="w-full h-48 object-cover opacity-90 hover:opacity-100 transition"
