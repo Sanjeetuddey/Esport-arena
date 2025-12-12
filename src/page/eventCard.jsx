@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const EventCard = ({ name, date, teams, prize, image }) => {
@@ -12,8 +11,7 @@ const EventCard = ({ name, date, teams, prize, image }) => {
         alt={name}
         className="w-full h-48 object-cover opacity-90 hover:opacity-100 transition"
       />
-
-     
+           
       <div className="p-6">
         <h3 className="text-2xl font-bold text-blue-400 mb-2">{name}</h3>
         <p className="text-gray-300 mb-2">📅 {date}</p>
