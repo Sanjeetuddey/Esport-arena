@@ -30,7 +30,7 @@ const Booking = () => {
       className="min-h-screen p-8 text-white bg-cover bg-center"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      {/* Glass Card */}
+     
       <div className="backdrop-blur-lg bg-black/60 p-10 rounded-2xl shadow-2xl max-w-5xl mx-auto">
 
         {/* Title */}

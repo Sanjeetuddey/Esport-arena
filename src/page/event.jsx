@@ -1,12 +1,11 @@
 import React from "react";
 import EventCard from "./eventCard";
-
-
 import bgImage from "../assets/dash3.webp";
 import valorantImg from "../assets/valorant.jpeg";
 import bgmiImg from "../assets/bgmi.jpeg";
 import fifaImg from "../assets/FIFA.jpeg";
 import csImg from "../assets/cs.jpeg";
+
 
 const Event = () => {
   return (
