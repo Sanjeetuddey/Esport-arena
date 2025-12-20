@@ -33,7 +33,7 @@ const Booking = () => {
      
       <div className="backdrop-blur-lg bg-black/60 p-10 rounded-2xl shadow-2xl max-w-5xl mx-auto">
 
-        {/* Title */}
+       
         <h2 className="text-4xl font-bold mb-8 text-center drop-shadow-lg">
           Arena Booking
         </h2>
