@@ -40,7 +40,7 @@ const Booking = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 
-          {/* Booking Form */}
+          
           <form
             onSubmit={addBooking}
             className="bg-gray-900/50 border border-gray-800 p-6 rounded-xl shadow-lg"
