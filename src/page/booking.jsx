@@ -49,8 +49,7 @@ const Booking = () => {
 
             <div className="space-y-5">
 
-              {/* Name */}
-              <div>
+                           <div>
                 <label className="text-gray-300 block mb-2">Player Name</label>
                 <input
                   type="text"
