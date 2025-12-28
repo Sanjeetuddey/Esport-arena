@@ -72,6 +72,11 @@ const Booking = () => {
                   className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-gray-200 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 />
               </div>
+              <div>
+                <label className="text-2xl">
+                  <input type="text" />
+                </label>
+              </div>
 
               {/* Time */}
               <div>
