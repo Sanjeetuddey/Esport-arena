@@ -143,7 +143,6 @@ const Booking = () => {
               </div>
             )}
           </div>
-
         </div>
       </div>
     </div>

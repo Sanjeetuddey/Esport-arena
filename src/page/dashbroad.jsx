@@ -2,7 +2,6 @@ import React from "react";
 import Card from "./card";
 import bgImage from "../assets/dash4.webp"; 
 
-
 const Dashboard = () => {
 return (
 <>
@@ -16,7 +15,6 @@ style={{ backgroundImage: `url(${bgImage})` }}
 Esport Arena Dashboard
 </h2>
 
-
 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
 <Card title="Total Players" value="120" icon="🎮" />
 <Card title="Upcoming Events" value="5" icon="📅" />
@@ -25,7 +23,6 @@ Esport Arena Dashboard
 <Card title="Active Systems" value="12" icon="🖥️" />
 <Card title="Peak Hours" value="7 PM - 10 PM" icon="⏱️" />
 </div>
-
 
 {/* Additional Information Sections */}
 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -38,7 +35,6 @@ Esport Arena Dashboard
 <li className="bg-gray-700/50 p-3 rounded-lg">FIFA 22 Championship - Jan 3</li>
 </ul>
 </div>
-
 
 <div className="bg-gray-800/80 p-6 rounded-xl shadow-xl border border-gray-700">
 <h3 className="text-2xl font-semibold mb-4">Player Activity</h3>
